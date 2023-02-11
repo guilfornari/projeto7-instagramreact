@@ -9,7 +9,7 @@ export default function Posts() {
             imageAlt: "gato-telefone",
             mainLikeIcon: "/assets/img/respondeai.svg",
             mainLikeUser: "respondeai",
-            amountLikes: "101.523"
+            amountLikes: 575
         },
         {
             user: "barked",
@@ -18,7 +18,7 @@ export default function Posts() {
             imageAlt: "dog",
             mainLikeIcon: "/assets/img/adorable_animals.svg",
             mainLikeUser: "adorable_animals",
-            amountLikes: "99.159"
+            amountLikes: 159
         },
         {
             user: "Wawa",
@@ -27,7 +27,7 @@ export default function Posts() {
             imageAlt: "tokay",
             mainLikeIcon: "/assets/img/razoesparaacreditar.svg",
             mainLikeUser: "razoesparaacreditar",
-            amountLikes: "543.999"
+            amountLikes: 998
         }
     ];
     return (
@@ -39,7 +39,9 @@ export default function Posts() {
                 imageAlt={dynamicPost.imageAlt}
                 mainLikeIcon={dynamicPost.mainLikeIcon}
                 mainLikeUser={dynamicPost.mainLikeUser}
-                amountLikes={dynamicPost.amountLikes} />))}
+                amountLikes={dynamicPost.amountLikes}
+                bookMark="bookmark-outline"
+                heartMark="heart-outline" />))}
         </div>
     )
 }

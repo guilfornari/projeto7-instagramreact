@@ -185,6 +185,10 @@ body {
   cursor: pointer;
 }
 
+.heart {
+  color: red;
+}
+
 .post .conteudo img {
   min-height: 612px;
   width: 100%;
