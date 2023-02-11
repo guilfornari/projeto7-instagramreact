@@ -186,6 +186,7 @@ body {
 }
 
 .post .conteudo img {
+  min-height: 612px;
   width: 100%;
 }
 
